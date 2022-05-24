@@ -21,5 +21,5 @@ def sortTwoSortedArrays(arr1, arr2):
             start_two += 1;
     return new_arr;
 
-result = sortTwoSortedArrays([17, 21, 29, 38], [4, 9, 25, 32, 40]);
+result = sortTwoSortedArrays([17, 21, 29, 38], [4, 9, 25, 32]);
 print(result)
