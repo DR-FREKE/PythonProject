@@ -10,7 +10,7 @@ class Book:
     # we do this by using the static method decorator
     @staticmethod
     def getBookList():
-        # remember to always use the class name to call the private method
+        # remember to always use the class name to call the private variable
         if Book.__booklist == None:
             Book.__booklist = []
         return Book.__booklist
